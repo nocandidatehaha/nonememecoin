@@ -7,27 +7,20 @@ body {
 }
 
 header {
-    background-color: #2a2a2a;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.hero {
     position: relative;
-    background: url('images/None_MEMEcoin.jpg') no-repeat center center/cover;
     height: 100vh;
+    background: url('images/None_MEMEcoin.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
 }
 
 .hero-text {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    color: #fff;
 }
 
 .cta-button {
